@@ -1,0 +1,38 @@
+{
+
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 150000,
+  "pageLoadTimeout": 120000,
+  
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "testFiles": "**/*.feature",
+  "projectId": "7z823q",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/result/mochawesome-report",
+    "overwrite": false,
+
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true,
+    
+    
+    "html": true,
+    "json": true,
+    "showPassed": true,
+    "charts": true,
+    "timestamp": "mmddyyyy_HHMMss",
+    "video": false
+    
+  },
+  "screenshotsFolder": "cypress/screenshots"
+
+  
+}}
+
+
+
+
+
